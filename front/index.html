@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>登录 · 作业系统</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/js.cookie-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container-fluid header-logo">
+			<a href="https://wangyuan.info/" target="_blank"><img src="images/wy_logo.png"></a>
+		</div>
+	</header>
+
+	<div class="main container">
+		<div class="auth-form">
+			<form id="form-login" role="form">
+				<div class="auth-form-header">
+					<h1>作业系统</h1>
+				</div>
+
+				<div class="auth-form-body">
+					<div class="form-group">
+					    <label for="username">用户名</label>
+					    <input type="text" class="form-control" name="username" id="login-username" autofocus="autofocus" tabindex="1" required="required" maxlength="15" />
+					</div>
+					<div class="form-group">
+					    <label for="password">密码</label>
+					    <input type="password" class="form-control" name="password" id="login-password" tabindex="2" required="required" maxlength="30" />
+					</div>
+					<button type="submit" id="btn-login" tabindex="3" class="btn btn-success btn-block" data-loading-text="登录中..." autocomplete="off">登　录</button>
+				</div>
+			</form>
+			<!-- <p class="signup-callout">没有账户？<a href="signup.html" target="_self">注册</a></p> -->
+		</div>
+	</div>
+
+	<footer>
+		<!-- <ul class="site-footer-links">
+			<li><a href="hh">使用条款</a></li>
+			<li><a href="hh">隐私协议</a></li>
+			<li><a href="hh">账户安全</a></li>
+			<li><a href="hh">关于网园</a></li>
+		</ul> -->
+		<p class="site-footer-copyright">&copy; 网园资讯工作室</p>
+	</footer>
+</body>
+</html>

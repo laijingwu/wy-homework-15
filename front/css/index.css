@@ -1,0 +1,80 @@
+/* index */
+body {
+	background-color: #f9f9f9;
+    line-height: 1.5;
+    color: #333;
+}
+header .header-logo {
+	padding-top: 36px;
+	padding-bottom: 24px;
+	text-align: center;
+}
+header .header-logo img{
+    width: 80px;
+    height: 80px;
+}
+.auth-form {
+	width: 340px;
+	margin: 0 auto;
+}
+.auth-form-header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.auth-form-header h1 {
+	font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+.auth-form-body {
+	margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #d8dee2;
+}
+.auth-form label {
+	display: block;
+    margin-bottom: 7px;
+    font-weight: normal;
+}
+.signup-callout {
+	padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #d8dee2;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+footer {
+	position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #767676;
+}
+footer .site-footer-links {
+	text-align: center;
+    list-style: none;
+    padding: 0;
+}
+footer .site-footer-links li + li {
+    margin-left: 10px;
+}
+footer .site-footer-links li {
+    display: inline-block;
+    line-height: 16px;
+}
+footer .site-footer-links a {
+    color: #9b9b9b;
+    text-decoration: none;
+}
+footer .site-footer-links a:hover {
+	color: #0685CC;
+}
+
+footer .site-footer-copyright {
+	text-align: center;
+}

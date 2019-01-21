@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>上传 · 作业系统</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/upload.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/js.cookie-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/upload.js"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default navbar-static-top wy-navbar" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+		     		</button>
+		    		<a class="navbar-brand wy-brand" href="upload.html"><img src="images/wy_logo.png"><span>网园资讯工作室</span></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="upload.html">上传作业</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a id="logined-username"></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-signal"></i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="http://wangyuan.info/" target="_blank"><i class="fa fa-bookmark"></i> 网园官网</a></li>
+                                <li class="divider"></li>
+                                <li><a id="btn-logout"><i class="fa fa-sign-out"></i> 登出</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+			</div>
+		</nav>
+	</header>
+
+    <div class="main container">
+        <div class="upload-form">
+            <div class="upload-form-body">
+                <div class="progress" id="upload-hws-progress" style="display: none;">
+                    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                        <span>0%</span>
+                    </div>
+                </div>
+                <input type="file" name="file_hws" id="input_file_hws" style="display: none;">
+                <button type="button" id="btn-file-hws" tabindex="1" class="btn btn-info btn-lg" data-loading-text="准备中..." autocomplete="off"><i class="fa fa-cloud-upload"></i> 上传作业</button>
+                <p class="upload-note">（文件大小限制20M以内，且仅允许上传zip, rar, 7z格式的作业文件）</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="site-footer-copyright">&copy; 网园资讯工作室</p>
+    </footer>
+</body>
+</html>

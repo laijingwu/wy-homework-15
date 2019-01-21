@@ -1,0 +1,36 @@
+/* common */
+a, button, input[type="button"], span, i, li {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;          
+}
+body {
+	margin: 0;
+    font-size: 14px;
+}
+body, .common-alert {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.common-alert {
+    background-color: #000;
+    background:rgba(0, 0, 0, 0.9);
+    filter: Alpha(opacity=90);
+}
+.common-alert h2, .common-alert p {
+    color: #fff;
+}
+.common-alert .sa-icon.sa-success .sa-fix,
+.common-alert .sa-icon.sa-success::before,
+.common-alert .sa-icon.sa-success::after {
+    background-color: transparent;
+}

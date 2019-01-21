@@ -1,0 +1,78 @@
+/* upload */
+body {
+    line-height: 1.5;
+}
+.navbar-header .wy-brand {
+	padding-top: 14px;
+}
+.navbar-header .wy-brand img {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.navbar-header .wy-brand span {
+	margin-left: 10px;
+	font-size: 16px;
+}
+.navbar-header .wy-brand:hover,
+.wy-navbar .navbar-nav > li > a:hover,
+.wy-navbar .navbar-nav > .active > a,
+.wy-navbar .navbar-nav > .active > a:focus,
+.wy-navbar .navbar-nav > .active > a:hover {
+	color: #0685CC;
+}
+.wy-navbar .navbar-nav > li > a:hover,
+.wy-navbar .navbar-nav > .active > a,
+.wy-navbar .navbar-nav > .active > a:focus,
+.wy-navbar .navbar-nav > .active > a:hover {
+	background: none;
+}
+.wy-navbar .navbar-nav > li > a{
+	border-bottom: 2px solid transparent;
+}
+.wy-navbar .navbar-nav > .active a,
+.wy-navbar .navbar-nav > li > a:focus,
+.wy-navbar .navbar-nav > li > a:hover,
+.wy-navbar .navbar-nav .dropdown.open > a{
+	border-bottom-color: #0685CC;
+}
+.upload-form {
+	margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px dashed #d8dee2;
+}
+.upload-form-body {
+	text-align: center;
+	padding: 150px 0;
+}
+.upload-form-body .upload-note {
+	margin-top: 10px;
+	color: #999;
+}
+#upload-hws-progress {
+	margin: 50px auto;
+	width: 80%;
+}
+#btn-file-hws {
+	width: 200px;
+	height: 50px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+}
+footer {
+	position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #767676;
+}
+footer .site-footer-copyright {
+	text-align: center;
+}
